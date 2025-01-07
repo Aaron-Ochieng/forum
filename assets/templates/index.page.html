@@ -96,7 +96,7 @@
             {{end}}
           </div>
           <!-------------------All Posts------------------------->
-          <div id="allPosts" class="posts-container">
+          <div id="allPosts" class="post-container">
             {{if len .Posts}} {{range .Posts}}
             <a href="/post/details?post_id={{.PostID}}">
               <div class="post-card" data-category="{{range .Categories}}{{.Name}},{{end}}">
